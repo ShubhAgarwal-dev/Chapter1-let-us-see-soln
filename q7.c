@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
   i=y/2;
   o=u/2;
   p=i/2;
-  printf("All distances are given in mm\n");
+  printf("All length are given in mm\n");
   printf("size of A0 sheet is %f by %f\n",q,w);
   printf("size of A1 sheet is %f by %f\n",w,e);
   printf("size of A2 sheet is %f by %f\n",e,r);
