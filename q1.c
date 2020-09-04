@@ -8,7 +8,7 @@ int main()
   scanf("%d",&s);
 
   float j;
-  j = s*1.8 ;
+  j = s*1.6 ;
 
   printf("your salary after adding home allowance and dearness allowance is %f\n",j);
   return 0;
