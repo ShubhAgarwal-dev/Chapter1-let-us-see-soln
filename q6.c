@@ -2,10 +2,13 @@
 int main()
 {
 	/*Interchange Value*/
-	int q,w;
-	printf("Enter two values of C and D:\n");
-	scanf("%d %d",&q,&w);
-	printf("After interchangingg the values we have C=%d and D=%d\n",w,q);
+	int c,d;
+	printf("Enter values of C and D:");
+	scanf("%d %d",&c,&d);
+	c ^= d;
+	d ^= c;
+	c ^= d;
+	printf("Value of C=%d and value of D=%d\n",c,d);
 	return 0;
 }
 
